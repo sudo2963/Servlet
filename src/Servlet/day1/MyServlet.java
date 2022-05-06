@@ -17,7 +17,7 @@ public class MyServlet implements Servlet {
 
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-
+        System.out.println("Hello Servlet");
     }
 
     @Override
